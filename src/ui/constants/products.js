@@ -3,7 +3,7 @@ import { StarIcon as SolidStarIcon } from "@heroicons/react/24/solid";
 import { StarIcon as OutlineStarIcon } from "@heroicons/react/24/outline";
 import { HeartIcon as OutlineHeartIcon } from "@heroicons/react/24/outline";
 import { HeartIcon as SolidHeartIcon } from "@heroicons/react/24/solid";
-import { Shoe } from "../assets";
+import { Shoe } from "../../assets";
 
 export default function Products() {
   const [rating, setRating] = useState(0);
