@@ -1,6 +1,6 @@
 import { Fragment, useState } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+
 import {
   Profile,
   Logo,
@@ -10,6 +10,7 @@ import {
   Like,
   UserProfile,
   SearchIcon,
+  Light,
 } from "../assets";
 import './ui.css'
 
@@ -64,8 +65,8 @@ export default function Header() {
                   <span className="sr-only">Orders</span>
                   <img
                     className="h-8 w-8 rounded-full"
-                    src={Order}
-                    alt="Order"
+                    src={Light}
+                    alt="Light"
                   />
                 </button>
 
@@ -75,7 +76,7 @@ export default function Header() {
                 >
                   <span className="absolute -inset-1.5" />
                   <span className="sr-only">Liked Products</span>
-                  <img className="h-8 w-8 rounded-full" src={Like} alt="Like" />
+                  <img className="h-8 w-8 rounded-full" src={Order} alt="Order" />
                 </button>
 
                 {/* Profile dropdown */}

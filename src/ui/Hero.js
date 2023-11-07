@@ -111,20 +111,6 @@ export default function Header() {
             Browse Categories
           </p>
         </section>
-
-        {/* Top Deals */}
-        <section className="w-full">
-          {/* Top Deals Heading */}
-          <div className="w-full flex justify-center items-center mt-10">
-            <h1 className="text-yellowShade text-4xl font-extrabold">
-              Top Deals
-            </h1>
-          </div>
-
-          <div>
-            
-          </div>
-        </section>
       </main>
     </>
   );
